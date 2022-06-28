@@ -33,5 +33,5 @@ https://nodejs.org/en/download/
 
 Run on bash or prompt inside the project
 ```bash
-TYPE=X npm run worker
+TYPE=X npm run worker or TYPE=X node index
 ```
