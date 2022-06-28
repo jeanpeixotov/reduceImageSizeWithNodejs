@@ -32,6 +32,10 @@ https://nodejs.org/en/download/
   - Optional env - SIZE (in Mbs - default 0.1)
 
 Run on bash or prompt inside the project
+
+```bash
+npm install # just in first time
+```
 ```bash
 npm run worker or node index
 ```
