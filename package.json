@@ -1,0 +1,35 @@
+{
+  "name": "reduceimagesizewithnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "worker": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanpeixotov/reduceImageSizeWithNodejs.git"
+  },
+  "keywords": [
+    "reduce-image-size"
+  ],
+  "author": "Jean Peixoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeanpeixotov/reduceImageSizeWithNodejs/issues"
+  },
+  "homepage": "https://github.com/jeanpeixotov/reduceImageSizeWithNodejs#readme",
+  "dependencies": {
+    "@types/imagemin-mozjpeg": "^8.0.1",
+    "axios": "^0.27.2",
+    "fs-extra": "^10.1.0",
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "is-jpg": "^3.0.0",
+    "mozjpeg": "^8.0.0",
+    "node-xlsx": "^0.21.0",
+    "sharp": "^0.30.7"
+  }
+}
