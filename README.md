@@ -2,10 +2,12 @@
 
 Reduce size of images by quality percent
 
-![fausto](https://c.tenor.com/vdi4CK5kBjsAAAAC/faustao-faust%C3%A3o.gif)
-### Tech
+automation for non-technical people
 
-* Node 14.x
+![fausto](https://c.tenor.com/vdi4CK5kBjsAAAAC/faustao-faust%C3%A3o.gif)
+
+### Tech
+* Node 14.x 
 * NPM 6.x
 * Sheet Plugin
 * MinImage Plugin
@@ -18,14 +20,24 @@ Reduce size of images by quality percent
 
   - Output of process going to processedImages
 
+
+### Instalation
+
+https://nodejs.org/en/download/
+
 ### Run the worker
 
   - Optional env - TYPE (sheet or folder - default sheet)
 
   - Optional env - SIZE (in Mbs - default 0.1)
 
+Run on bash or prompt inside the project
 ```bash
-TYPE=X npm run worker
+npm run worker or node index
+```
+with env
+```bash
+TYPE=folder npm run worker or TYPE=folder node index
 ```
 
 ![alt text](https://i.postimg.cc/x8kFf89V/Captura-de-Tela-2022-06-28-a-s-13-34-15.png)
