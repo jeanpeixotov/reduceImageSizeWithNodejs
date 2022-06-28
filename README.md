@@ -2,6 +2,8 @@
 
 Reduce size of images by quality percent
 
+job for non-tech people
+
 ![fausto](https://c.tenor.com/vdi4CK5kBjsAAAAC/faustao-faust%C3%A3o.gif)
 ### Tech
 
