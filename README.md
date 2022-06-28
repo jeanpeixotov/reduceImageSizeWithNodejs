@@ -40,5 +40,5 @@ with env
 TYPE=folder npm run worker or TYPE=folder node index
 ```
 
-![alt text](https://i.postimg.cc/x8kFf89V/Captura-de-Tela-2022-06-28-a-s-13-34-15.png)
+![alt text](https://i.postimg.cc/QdLxrWjs/Captura-de-Tela-2022-06-28-a-s-13-47-39.png)
 
