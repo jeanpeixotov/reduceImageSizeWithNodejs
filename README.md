@@ -20,10 +20,13 @@ Reduce size of images by quality percent
 
 ### Run the worker
 
-  - Required env - TYPE (sheet or folder)
+  - Optional env - TYPE (sheet or folder - default sheet)
 
   - Optional env - SIZE (in Mbs - default 0.1)
 
 ```bash
 TYPE=X npm run worker
 ```
+
+![alt text](https://i.postimg.cc/x8kFf89V/Captura-de-Tela-2022-06-28-a-s-13-34-15.png)
+

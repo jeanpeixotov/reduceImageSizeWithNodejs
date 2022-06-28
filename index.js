@@ -75,8 +75,8 @@ const loadEnv = async () => {
 	const quality = 90;
 	const types = ['folder','sheet'];
 
-	const sizeLimitInMb = process.env.SIZE || 0.1;
-	const type = process.env.TYPE || '';
+	const sizeLimitInMb = process.env.SIZE || 0.100;
+	const type = process.env.TYPE || 'sheet';
 
 	if(!types.includes(type.toLocaleLowerCase())) throw Error('Choose a valid type - folder or sheet');
 
